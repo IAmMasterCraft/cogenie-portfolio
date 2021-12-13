@@ -19,6 +19,11 @@ export default {
       { rel: 'stylesheet', href: 'css/base.css' },
       { rel: 'stylesheet', href: 'css/vendor.css' },
       { rel: 'stylesheet', href: 'css/main.css' }
+    ],
+    script: [
+      {
+        src: ''
+      }
     ]
   },
 
