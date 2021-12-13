@@ -4,7 +4,7 @@
         <Nuxt />
         <Footer />
         <PhotoSwipeBg />
-        <Preloader />
+        <Preloader v-if="true === false" />
     </div>
 </template>
 
