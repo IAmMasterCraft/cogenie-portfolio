@@ -5,8 +5,8 @@
 
         <div class="header-logo">
             <nuxt-link class="site-logo" to="">
-                <!-- <img src="images/logo.png" alt="Homepage"> -->
-                Cogenie logo
+                <img src="images/logo_new_crop.png" alt="Homepage">
+                <!-- Cogenie logo -->
             </nuxt-link>
         </div>
 
@@ -130,11 +130,34 @@ export default {
                 }
             });
         }, // end
+
+        clSmoothScroll () {
+            $('.smoothscroll').on('click', function (e) {
+                const target = this.hash,
+                $target    = $(target);
+                
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 800, 'swing').promise().done(function () {
+
+                    // check if menu is open
+                    if ($('body').hasClass('menu-is-open')) {
+                        $('.header-menu-toggle').trigger('click');
+                    }
+
+                    window.location.hash = target;
+                });
+            });
+        }, //end
     },
 
     mounted() {
         this.clMenuOnScrolldown();
         this.clOffCanvas();
+        this.clSmoothScroll();
     },
 }
 </script>
