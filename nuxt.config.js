@@ -21,9 +21,11 @@ export default {
       { rel: 'stylesheet', href: 'css/main.css' }
     ],
     script: [
-      {
-        src: ''
-      }
+      { src: 'js/modernizr.js' },
+      { src: 'js/pace.min.js' },
+      { src: 'js/jquery-3.2.1.min.js' },
+      { src: 'js/plugins.js', body: true },
+      { src: 'js/main.js', body: true }
     ]
   },
 

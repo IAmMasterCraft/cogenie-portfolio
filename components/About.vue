@@ -6,7 +6,10 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead subhead--dark">Hello There</h3>
-                <h1 class="display-1 display-1--light">We Are Glint</h1>
+                <h1 class="display-1 display-1--light">
+                    This is COGENIE <br />
+                    🤩🤩
+                </h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -18,7 +21,7 @@
             </div>
         </div> <!-- end about-desc -->
 
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up" v-if="true === false">
                 
             <div class="col-block stats__col ">
                 <div class="stats__count">127</div>

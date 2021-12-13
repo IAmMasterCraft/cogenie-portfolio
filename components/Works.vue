@@ -22,7 +22,7 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Census Mobile App" data-size="1050x700">
                                     <img src="images/portfolio/lady-shutterbug.jpg" 
                                          srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
                                 </a>
@@ -30,10 +30,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Shutterbug
+                                    Census Mobile App
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Branding
+                                    Award-winning demographic information managament app
                                 </p>
                             </div>
     
@@ -52,7 +52,7 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="MulpX" data-size="1050x700">
                                     <img src="images/portfolio/woodcraft.jpg" 
                                          srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
                                 </a>
@@ -60,10 +60,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Woodcraft
+                                    MulpX
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Web Design
+                                    A FinTech solution for multiple payment system
                                 </p>
                             </div>
     
@@ -78,7 +78,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
     
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick" data-aos="fade-up" v-if="true === false">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
@@ -108,7 +108,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
     
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick" data-aos="fade-up" v-if="true === false">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
@@ -138,7 +138,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick" data-aos="fade-up" v-if="true === false">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
@@ -168,7 +168,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
     
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick" data-aos="fade-up" v-if="true === false">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">

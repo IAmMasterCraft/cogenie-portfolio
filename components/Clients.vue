@@ -6,8 +6,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-2">Glint has been honored to
-                partner up with these clients</h1>
+                <h1 class="display-2">It has been an honor for COGENIE to work together with these clients</h1>
             </div>
         </div> <!-- end section-header -->
 

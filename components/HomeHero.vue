@@ -10,13 +10,13 @@
 
             <div class="row home-content__main">
 
-                <h3>Welcome to Glint</h3>
+                <h3>Welcome to Cogenie</h3>
 
                 <h1>
                     We are a creative group <br>
-                    of people who design <br>
-                    influential brands and <br>
-                    digital experiences.
+                    of people who <br>
+                    design, develop and ship <br>
+                    software solutions.
                 </h1>
 
                 <div class="home-content__buttons">
@@ -62,3 +62,16 @@
 
     </section> <!-- end s-home -->
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            //
+        }
+    },
+    mounted() {
+        $('.target-section').parallax({imageSrc: 'images/hero-bg.jpg'});
+    },
+}
+</script>

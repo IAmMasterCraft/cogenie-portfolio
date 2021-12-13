@@ -4,9 +4,10 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
-            </a>
+            <nuxt-link class="site-logo" to="">
+                <!-- <img src="images/logo.png" alt="Homepage"> -->
+                Cogenie logo
+            </nuxt-link>
         </div>
 
         <nav class="header-nav">
