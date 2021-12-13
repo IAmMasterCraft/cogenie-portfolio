@@ -7,7 +7,7 @@
 
             <div class="col-six tab-full left footer-desc">
 
-                <div class="footer-logo"></div>
+                <div class="footer-logo%">COGENIE</div>
                 Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
 
             </div>
@@ -15,7 +15,7 @@
             <div class="col-six tab-full right footer-subscribe">
 
                 <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+                <p>Subscribe to our newsletter.</p>
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
@@ -33,7 +33,7 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>&copy; Copyright Cogenie {{ year }}</span>
+                    <span>&copy; Copyright <br />Cogenie {{ year }}</span>
                 </div>
 
                 <div class="go-top">
