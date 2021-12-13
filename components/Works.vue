@@ -22,10 +22,10 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Census Mobile App" data-size="1050x700">
+                                <nuxt-link to="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Census Mobile App" data-size="1050x700">
                                     <img src="images/portfolio/lady-shutterbug.jpg" 
                                          srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
-                                </a>
+                                </nuxt-link>
                             </div>
     
                             <div class="item-folio__text">
@@ -37,12 +37,14 @@
                                 </p>
                             </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <a href="#" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
     
                             <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                                <p>
+                                    Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+                                </p>
                             </div>
     
                         </div>
@@ -52,10 +54,10 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="MulpX" data-size="1050x700">
+                                <nuxt-link to="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="MulpX" data-size="1050x700">
                                     <img src="images/portfolio/woodcraft.jpg" 
                                          srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                                </a>
+                                </nuxt-link>
                             </div>
     
                             <div class="item-folio__text">
@@ -67,7 +69,7 @@
                                 </p>
                             </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <a href="#" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
     
@@ -204,3 +206,24 @@
 
     </section> <!-- end s-works -->
 </template>
+
+<script>
+export default {
+    methods: {
+        clMasonryFolio () {
+            const containerBricks = $('.masonry');
+
+            containerBricks.imagesLoaded(function () {
+                containerBricks.masonry({
+                    itemSelector: '.masonry__brick',
+                    resize: true
+                });
+            });
+        }, // end
+    },
+
+    mounted() {
+        this.clMasonryFolio();
+    },
+}
+</script>

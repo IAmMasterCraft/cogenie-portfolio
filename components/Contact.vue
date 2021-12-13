@@ -19,7 +19,7 @@
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <form name="contactForm" id="contactForm" novalidate="novalidate">
                     <fieldset>
     
                     <div class="form-field">
@@ -114,3 +114,11 @@
 
     </section> <!-- end s-contact -->
 </template>
+
+<script>
+export default {
+    mounted() {
+        $('input, textarea, select').placeholder();
+    },
+}
+</script>

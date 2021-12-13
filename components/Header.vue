@@ -12,21 +12,47 @@
 
         <nav class="header-nav">
 
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <nuxt-link to="#home" class="header-nav__close" title="close">
+                <span>Close</span>
+            </nuxt-link>
 
             <div class="header-nav__content">
                 <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                    <li class="current">
+                        <nuxt-link class="smoothscroll" to="#home" title="Home">Home</nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link class="smoothscroll" to="#about" title="About">About</nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link class="smoothscroll"  to="#services" title="services">Services</nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link class="smoothscroll"  to="#works" title="works">Works</nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link class="smoothscroll"  to="#clients" title="clients">Clients</nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link class="smoothscroll"  to="#contact" title="contact">Contact</nuxt-link>
+                    </li>
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+                <p>
+                    When you hear 
+                    <i>
+                        <nuxt-link to="#home">Zaaazuuu</nuxt-link>
+                    </i>;
+                    <br />
+                    You say 
+                    <i>
+                        <nuxt-link to='#home'>zeeh</nuxt-link>
+                    </i>!!!
+                    <br />
+                    That's how we rolllll
+                </p>
     
                 <ul class="header-nav__social">
                     <li>
@@ -57,3 +83,58 @@
 
     </header> <!-- end s-header -->
 </template>
+
+<script>
+export default {
+    methods: {
+        clMenuOnScrolldown () {
+            const menuTrigger = $('.header-menu-toggle');
+
+            $(window).on('scroll', function() {
+
+                if ($(window).scrollTop() > 150) {
+                    menuTrigger.addClass('opaque');
+                }
+                else {
+                    menuTrigger.removeClass('opaque');
+                }
+
+            });
+        }, // end
+
+        clOffCanvas () {
+            const menuTrigger     = $('.header-menu-toggle'),
+                nav             = $('.header-nav'),
+                closeButton     = nav.find('.header-nav__close'),
+                siteBody        = $('body'),
+                mainContents    = $('section, footer');
+
+            // open-close menu by clicking on the menu icon
+            menuTrigger.on('click', function(e){
+                e.preventDefault();
+                // menuTrigger.toggleClass('is-clicked');
+                siteBody.toggleClass('menu-is-open');
+            });
+
+            // close menu by clicking the close button
+            closeButton.on('click', function(e){
+                e.preventDefault();
+                menuTrigger.trigger('click');	
+            });
+
+            // close menu clicking outside the menu itself
+            siteBody.on('click', function(e){
+                if( !$(e.target).is('.header-nav, .header-nav__content, .header-menu-toggle, .header-menu-toggle span') ) {
+                    // menuTrigger.removeClass('is-clicked');
+                    siteBody.removeClass('menu-is-open');
+                }
+            });
+        }, // end
+    },
+
+    mounted() {
+        this.clMenuOnScrolldown();
+        this.clOffCanvas();
+    },
+}
+</script>

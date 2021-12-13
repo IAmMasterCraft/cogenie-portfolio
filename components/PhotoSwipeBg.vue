@@ -80,13 +80,13 @@ export default {
 
                 $(this).on('click', function(e) {
                     e.preventDefault();
-                    var options = {
+                    const options = {
                         index: i,
                         showHideOpacity: true
                     }
 
                     // initialize PhotoSwipe
-                    var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+                    const lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
                     lightBox.init();
                 });
 
