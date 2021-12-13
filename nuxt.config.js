@@ -16,9 +16,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '~/assets/css/base.css' },
-      { rel: 'stylesheet', href: '~/assets/css/vendor.css' },
-      { rel: 'stylesheet', href: '~/assets/css/main.css' }
+      { rel: 'stylesheet', href: 'css/base.css' },
+      { rel: 'stylesheet', href: 'css/vendor.css' },
+      { rel: 'stylesheet', href: 'css/main.css' }
     ]
   },
 

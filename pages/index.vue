@@ -1,5 +1,12 @@
 <template>
-  <Tutorial/>
+  <div>
+    <HomeHero />
+    <About />
+    <Services />
+    <Works />
+    <Clients />
+    <Contact />
+  </div>
 </template>
 
 <script>
