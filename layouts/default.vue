@@ -13,14 +13,17 @@ export default {
     methods: {
         clSmoothScroll () {
             $('.smoothscroll').on('click', function (e) {
-                const target = this.hash,
+                // const target = this.hash,
+                const target = (e.target.innerHTML.length > 4) 
+                                ? `#${e.target.innerHTML.toLowerCase()}` 
+                                : '#home',
                 $target    = $(target);
                 
                     e.preventDefault();
                     e.stopPropagation();
 
                 $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top
+                    // 'scrollTop': $target.offset().top
                 }, 800, 'swing').promise().done(function () {
 
                     // check if menu is open
@@ -28,7 +31,7 @@ export default {
                         $('.header-menu-toggle').trigger('click');
                     }
 
-                    window.location.hash = target;
+                    // window.location.hash = target;
                 });
             });
         }, //end
