@@ -37,7 +37,7 @@
                                 </p>
                             </div>
     
-                            <a href="#" class="item-folio__project-link" title="Project link">
+                            <a href="" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
     
@@ -69,7 +69,7 @@
                                 </p>
                             </div>
     
-                            <a href="#" class="item-folio__project-link" title="Project link">
+                            <a href="" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
     
