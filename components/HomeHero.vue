@@ -20,10 +20,10 @@
                 </h1>
 
                 <div class="home-content__buttons">
-                    <nuxt-link to="#contact" class="smoothscroll btn btn--stroke">
+                    <nuxt-link to="contact" class="smoothscroll btn btn--stroke">
                         Start a Project
                     </nuxt-link>
-                    <nuxt-link to="#about" class="smoothscroll btn btn--stroke">
+                    <nuxt-link to="about" class="smoothscroll btn btn--stroke">
                         More About Us
                     </nuxt-link>
                 </div>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="home-content__scroll">
-                <nuxt-link to="#about" class="scroll-link smoothscroll">
+                <nuxt-link to="about" class="scroll-link smoothscroll">
                     <span>Scroll Down</span>
                 </nuxt-link>
             </div>
@@ -43,19 +43,19 @@
 
         <ul class="home-social">
             <li>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+                <a href=""><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+                <a href=""><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
