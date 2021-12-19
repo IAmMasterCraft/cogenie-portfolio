@@ -36,8 +36,8 @@
                     <span>&copy; Copyright <br />Cogenie {{ year }}</span>
                 </div>
 
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                <div class="go-top" v-if="true === false">
+                    <a class="smoothscroll" title="Back to Top" href=""><i class="icon-arrow-up" aria-hidden="true"></i></a>
                 </div>
             </div>
 
