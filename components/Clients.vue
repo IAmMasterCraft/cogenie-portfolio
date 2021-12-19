@@ -14,14 +14,14 @@
             <div class="col-full">
                 <div class="clients">
                     
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
-                    <a href="#" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
+                    <a href="" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
                      
                 </div> <!-- end clients -->
             </div> <!-- end col-full -->
