@@ -21,23 +21,44 @@
             </div>
         </div> <!-- end about-desc -->
 
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up" v-if="true === false">
+        <!-- Crew title -->
+        <div class="row section-header has-bottom-sep mt-52" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1 display-1--light">
+                    Meet the Crew
+                </h1>
+                <h3 class="subhead subhead--dark">
+                    These are the wizards that make the magic happen
+                </h3>
+            </div>
+        </div>
+        <!-- End of crew title -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 
             <div class="col-block stats__col ">
-                <div class="stats__count">127</div>
-                <h5>Awards Received</h5>
+                <div>
+                    <img class="w-screen max-w-full" src="images/portfolio/lady-shutterbug.jpg" />
+                </div>
+                <h5>Isreal Isaac Ozioma</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">1505</div>
-                <h5>Cups of Coffee</h5>
+                <div>
+                    <img class="w-screen max-w-full" src="images/portfolio/lady-shutterbug.jpg" />
+                </div>
+                <h5>Isreal Isaac Ozioma</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">109</div>
-                <h5>Projects Completed</h5>
+                <div>
+                    <img class="w-screen max-w-full" src="images/portfolio/lady-shutterbug.jpg" />
+                </div>
+                <h5>Isreal Isaac Ozioma</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">102</div>
-                <h5>Happy Clients</h5> 
+                <div class="">
+                    <img class="w-screen max-w-full" src="images/portfolio/lady-shutterbug.jpg" />
+                </div>
+                <h5>Isreal Isaac Ozioma</h5>
             </div>
 
         </div> <!-- end about-stats -->
