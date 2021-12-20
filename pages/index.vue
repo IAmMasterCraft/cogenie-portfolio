@@ -1,8 +1,6 @@
 <template>
   <div>
     <HomeHero />
-    <Clients />
-    <Contact />
   </div>
 </template>
 
