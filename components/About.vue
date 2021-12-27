@@ -28,7 +28,7 @@
                     Meet the Crew
                 </h1>
                 <h3 class="subhead subhead--dark">
-                    These are the wizards that make the magic happen
+                    These are the wizards that make the magic happen at Cogenie
                 </h3>
             </div>
         </div>
